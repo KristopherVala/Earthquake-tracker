@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#ffbb33"
+    android:padding="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textSize="22dp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:background="#ff0000"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello Toronto" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="20dp"
+            android:textColor="#0000ff"
+            android:id="@+id/idText"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="ID"
+            android:layout_marginRight="35dp"
+            />
+
+        <EditText
+            android:textSize="20dp"
+            android:textColor="@android:color/holo_purple"
+            android:id="@+id/idEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="ID"
+            android:maxLength="8"
+            android:inputType="text"
+           />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="20dp"
+            android:textColor="#0000ff"
+            android:id="@+id/nameText"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:layout_marginRight="30dp"
+
+            />
+
+        <EditText
+            android:textSize="20dp"
+            android:textColor="@android:color/holo_purple"
+            android:id="@+id/nameEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:maxLength="8"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="20dp"
+            android:textColor="#0000ff"
+            android:id="@+id/marksText"
+            android:layout_width="wrap_content"
+          

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string-array name="sorted">
+        <item>magnitude</item>
+        <item>date</item>
+
+    </string-array>
+
+</resources>
